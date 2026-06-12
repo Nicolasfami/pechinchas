@@ -34,7 +34,7 @@ def get_b64(filename):
         return base64.b64encode(p.read_bytes()).decode()
     return None
 
-logo_b64 = get_b64("KRYLA1.png")
+logo_b64 = get_b64("logo_kryla.png")
 asa_b64  = get_b64("asafogo.png")
 
 st.markdown("""
@@ -60,7 +60,7 @@ st.markdown("""
   z-index: 999;
   border-bottom: 3px solid #ff6b1a;
 }
-.nav-logo  { height: 38px; object-fit: contain; }
+.nav-logo  { height: 44px; object-fit: contain; }
 .nav-badge {
   background: #ff6b1a;
   color: #fff;
@@ -80,7 +80,7 @@ st.markdown("""
   gap: 20px;
 }
 .hero-left { display: flex; align-items: center; gap: 20px; }
-.hero-icon { height: 80px; object-fit: contain; filter: drop-shadow(0 0 16px #ff6b1a88); }
+.hero-icon { height: 140px; object-fit: contain; filter: drop-shadow(0 0 24px #ff6b1aaa); }
 .hero-title { font-size: 28px; font-weight: 900; color: #fff; margin: 0; letter-spacing: -0.5px; }
 .hero-title span { color: #ff6b1a; }
 .hero-sub   { font-size: 13px; color: #888; margin-top: 5px; }
