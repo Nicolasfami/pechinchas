@@ -60,7 +60,7 @@ st.markdown("""
   z-index: 999;
   border-bottom: 3px solid #ff6b1a;
 }
-.nav-logo  { height: 44px; object-fit: contain; }
+.nav-logo  { height: 56px; object-fit: contain; margin: -6px 0; }
 .nav-badge {
   background: #ff6b1a;
   color: #fff;
