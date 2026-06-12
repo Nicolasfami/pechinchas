@@ -42,7 +42,7 @@ st.markdown("""
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
 *, *::before, *::after { box-sizing: border-box; font-family: 'Inter', sans-serif !important; }
 
-.stApp { background: #f5f5f7 !important; }
+.stApp { background: linear-gradient(160deg, #fff5ee 0%, #fff0e0 30%, #ffecd6 60%, #fff8f0 100%) !important; }
 [data-testid="stSidebar"] { display: none; }
 .block-container { padding: 0 !important; max-width: 100% !important; }
 #MainMenu, footer, header { visibility: hidden; }
@@ -51,7 +51,7 @@ st.markdown("""
 .navbar {
   background: #1a1a2e;
   padding: 0 32px;
-  height: 80px;
+  height: 120px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -60,7 +60,7 @@ st.markdown("""
   z-index: 999;
   border-bottom: 3px solid #ff6b1a;
 }
-.nav-logo  { width: 200px; height: auto; object-fit: contain; }
+.nav-logo  { width: 600px; height: auto; object-fit: contain; }
 .nav-badge {
   background: #ff6b1a;
   color: #fff;
