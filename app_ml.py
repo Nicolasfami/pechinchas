@@ -51,7 +51,7 @@ st.markdown("""
 .navbar {
   background: #1a1a2e;
   padding: 0 32px;
-  height: 64px;
+  height: 80px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -60,7 +60,7 @@ st.markdown("""
   z-index: 999;
   border-bottom: 3px solid #ff6b1a;
 }
-.nav-logo  { height: 56px; object-fit: contain; margin: -6px 0; }
+.nav-logo  { width: 200px; height: auto; object-fit: contain; }
 .nav-badge {
   background: #ff6b1a;
   color: #fff;
