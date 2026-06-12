@@ -34,7 +34,7 @@ def get_b64(filename):
         return base64.b64encode(p.read_bytes()).decode()
     return None
 
-logo_b64 = get_b64("logo_kryla.png")
+logo_b64 = get_b64("kryla_store1.png")
 asa_b64  = get_b64("asafogo.png")
 
 st.markdown("""
